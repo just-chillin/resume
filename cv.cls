@@ -59,9 +59,9 @@
 \newcommand{\job}[4]{
 	\datedsubsection{#1}{#2}
 	#3 \hfill #4 \newline
-	\vspace{-3mm}
+	\vspace{-2mm}
 }
 
 \newcommand{\project}[3]{
-	\href{#1}{\textbf{#2}}: #3 \newline
+	\href{#1}{\textbf{#2}} #3 \newline
 }
