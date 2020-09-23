@@ -5,8 +5,18 @@
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
 \RequirePackage{xcolor}
+\RequirePackage[document]{ragged2e}
+\RequirePackage{geometry}
+
+\geometry{margin=.5in}
+
 
 \definecolor{linkgray}{gray}{.13}
+
+\setlength{\parskip}{0em}
+\renewcommand{\baselinestretch}{1}
+\thispagestyle{empty}
+
 
 \hypersetup{
 	colorlinks   = true, %Colours links instead of ugly boxes
@@ -44,4 +54,14 @@
 }
 \newcommand{\datedsubsection}[2]{%
 	\textbf{#1} \hfill \textbf{#2} \newline
+}
+
+\newcommand{\job}[4]{
+	\datedsubsection{#1}{#2}
+	#3 \hfill #4 \newline
+	\vspace{-3mm}
+}
+
+\newcommand{\project}[3]{
+	\href{#1}{\textbf{#2}}: #3 \newline
 }

@@ -1,2 +1,4 @@
-!*.tex
-!*.cls
+*.aux
+*.log
+*.out
+*.synctex.gz
