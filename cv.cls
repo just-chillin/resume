@@ -8,7 +8,7 @@
 \RequirePackage[document]{ragged2e}
 \RequirePackage{geometry}
 
-\geometry{margin=.5in}
+\geometry{margin=2em}
 
 
 \definecolor{linkgray}{gray}{.13}
@@ -59,7 +59,7 @@
 \newcommand{\job}[4]{
 	\datedsubsection{#1}{#2}
 	#3 \hfill #4 \newline
-	\vspace{-3mm}
+	\vspace{-.5em}
 }
 
 \newcommand{\project}[3]{
