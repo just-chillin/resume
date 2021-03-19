@@ -1,5 +1,5 @@
-% !TeX root = resume.tex
-\LoadClass{article}
+% !TeX root = CorrinaSivakResume.tex
+\LoadClass[a4paper]{article}
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cv}
 \RequirePackage{titlesec}
