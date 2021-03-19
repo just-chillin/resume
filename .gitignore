@@ -1,2 +1,7 @@
+# Ignore everything
+*
+
+# Except .tex, .cls, and .gitignore files
 !*.cls
 !*.tex
+!*.gitignore
